@@ -4,5 +4,6 @@ const chalk = require('chalk')
 
 const redSpace = chalk.bgRed
 const whiteSpace = chalk.bgWhite
+const star = chalk.white.bgBlue
 
-console.log(whiteSpace(" "))
+console.log(star("\u2605"))
